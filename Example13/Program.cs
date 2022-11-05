@@ -1,7 +1,7 @@
 ﻿//Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 Console.Clear();
 Console.WriteLine("Введите число: ");
-int numbers = Convert.ToInt32(Console.ReadLine());
+int numbers = int.Parse(Console.ReadLine());
 
 if (numbers > 99 && numbers < 999 )
 {
